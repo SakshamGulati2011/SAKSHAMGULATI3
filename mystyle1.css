@@ -1,0 +1,108 @@
+*{
+    font-family:'Gill Sans',  sans-serif ;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background: #333
+}
+nav{
+    background:black ;
+    height: 50px;
+  
+ line-height: 50px;
+ }
+nav ul{
+    float: right; 
+ }
+nav ul li{
+   
+    list-style: none; 
+    display: inline-block;
+ }
+nav ul li a {
+    color: rgb(170, 169, 169);
+    text-decoration: none;
+    font-size: 18px;
+    padding:8 28px;
+    -webkit-border-top-right-radius: 10px ;
+    -webkit-border-top-left-radius: 10px ;
+     -moz-border-radius-topleft:10px;
+     -moz-border-radius-topright:10px;
+}
+nav ul li a:hover{
+   
+    background: rgb(194, 111, 3);
+    
+}
+
+ 
+label.logo
+{
+    float: left;
+    color: cornsilk;
+    font-size: 18px;
+   align-items: right;
+  padding: 0 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul li a#onlink{
+    background: coral;
+    color: rgb(12, 12, 12);
+}
+nav ul li a#onlink:hover{
+    background: coral;
+    color: darkgray;
+
+}
+body{
+    background: #333;
+    text-transform: uppercase;
+}
+h1{
+    text-align:center;
+}
+h3{
+    margin: 6px;
+}
+.skill{
+    width: 30%;
+    margin-bottom: 90px;
+    margin-left: 32%;
+    margin-top: 100px;
+    display:block;
+    text-align: center;
+    color: #fff;
+    padding: 25px;
+    box-shadow: 0 14px 28px rgba(0, 0,0, 0.25),0 10px 10px rgba(0, 0,0, 0.25);
+}
+.skill li{
+  margin:20px 0;
+  
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 4px;
+   border: 1px solid rgba(0, 0,0, 0.3);
+    border-radius:3px;
+    overflow: hidden
+    box-shadow: 0 1px 3px #2187e7b3 ;
+    
+}
+.bar span{
+height: 4px;
+float: left;
+background: #2187e7;   
+}
+.html{
+    width:45%;
+}
+.cpp{
+    width:80%;
+}
+.c{
+    width:40%;
+}
